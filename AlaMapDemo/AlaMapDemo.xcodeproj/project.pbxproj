@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182734DA1D62A39500067928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734D91D62A39500067928 /* main.m */; };
+		182734DD1D62A39500067928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734DC1D62A39500067928 /* AppDelegate.m */; };
+		182734E01D62A39500067928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734DF1D62A39500067928 /* ViewController.m */; };
+		182734E31D62A39600067928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182734E11D62A39600067928 /* Main.storyboard */; };
+		182734E51D62A39600067928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182734E41D62A39600067928 /* Assets.xcassets */; };
+		182734E81D62A39600067928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182734E61D62A39600067928 /* LaunchScreen.storyboard */; };
+		182734F01D62A98E00067928 /* ALDMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182734EF1D62A98E00067928 /* ALDMapKit.framework */; };
+		182734F21D62A9BC00067928 /* MapApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 182734F11D62A9BC00067928 /* MapApi.bundle */; };
+		182734F51D62AC4B00067928 /* AlaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734F41D62AC4B00067928 /* AlaMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182734D51D62A39500067928 /* AlaMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlaMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182734D91D62A39500067928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182734DB1D62A39500067928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182734DC1D62A39500067928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182734DE1D62A39500067928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182734DF1D62A39500067928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182734E21D62A39600067928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182734E41D62A39600067928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182734E71D62A39600067928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182734E91D62A39600067928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182734EF1D62A98E00067928 /* ALDMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALDMapKit.framework; sourceTree = "<group>"; };
+		182734F11D62A9BC00067928 /* MapApi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MapApi.bundle; sourceTree = "<group>"; };
+		182734F31D62AC4B00067928 /* AlaMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlaMapViewController.h; sourceTree = "<group>"; };
+		182734F41D62AC4B00067928 /* AlaMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlaMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182734D21D62A39500067928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182734F01D62A98E00067928 /* ALDMapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182734CC1D62A39500067928 = {
+			isa = PBXGroup;
+			children = (
+				182734EF1D62A98E00067928 /* ALDMapKit.framework */,
+				182734D71D62A39500067928 /* AlaMapDemo */,
+				182734D61D62A39500067928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182734D61D62A39500067928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182734D51D62A39500067928 /* AlaMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182734D71D62A39500067928 /* AlaMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				182734DB1D62A39500067928 /* AppDelegate.h */,
+				182734DC1D62A39500067928 /* AppDelegate.m */,
+				182734DE1D62A39500067928 /* ViewController.h */,
+				182734DF1D62A39500067928 /* ViewController.m */,
+				182734F31D62AC4B00067928 /* AlaMapViewController.h */,
+				182734F41D62AC4B00067928 /* AlaMapViewController.m */,
+				182734E11D62A39600067928 /* Main.storyboard */,
+				182734E41D62A39600067928 /* Assets.xcassets */,
+				182734E61D62A39600067928 /* LaunchScreen.storyboard */,
+				182734E91D62A39600067928 /* Info.plist */,
+				182734D81D62A39500067928 /* Supporting Files */,
+			);
+			path = AlaMapDemo;
+			sourceTree = "<group>";
+		};
+		182734D81D62A39500067928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182734D91D62A39500067928 /* main.m */,
+				182734F11D62A9BC00067928 /* MapApi.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182734D41D62A39500067928 /* AlaMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182734EC1D62A39600067928 /* Build configuration list for PBXNativeTarget "AlaMapDemo" */;
+			buildPhases = (
+				182734D11D62A39500067928 /* Sources */,
+				182734D21D62A39500067928 /* Frameworks */,
+				182734D31D62A39500067928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlaMapDemo;
+			productName = AlaMapDemo;
+			productReference = 182734D51D62A39500067928 /* AlaMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182734CD1D62A39500067928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zfsoft;
+				TargetAttributes = {
+					182734D41D62A39500067928 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 182734D01D62A39500067928 /* Build configuration list for PBXProject "AlaMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182734CC1D62A39500067928;
+			productRefGroup = 182734D61D62A39500067928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182734D41D62A39500067928 /* AlaMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182734D31D62A39500067928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182734E81D62A39600067928 /* LaunchScreen.storyboard in Resources */,
+				182734F21D62A9BC00067928 /* MapApi.bundle in Resources */,
+				182734E51D62A39600067928 /* Assets.xcassets in Resources */,
+				182734E31D62A39600067928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182734D11D62A39500067928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182734F51D62AC4B00067928 /* AlaMapViewController.m in Sources */,
+				182734E01D62A39500067928 /* ViewController.m in Sources */,
+				182734DD1D62A39500067928 /* AppDelegate.m in Sources */,
+				182734DA1D62A39500067928 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182734E11D62A39600067928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182734E21D62A39600067928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182734E61D62A39600067928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182734E71D62A39600067928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182734EA1D62A39600067928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182734EB1D62A39600067928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182734ED1D62A39600067928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AlaMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.AlaMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182734EE1D62A39600067928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AlaMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zfsoft.AlaMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182734D01D62A39500067928 /* Build configuration list for PBXProject "AlaMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182734EA1D62A39600067928 /* Debug */,
+				182734EB1D62A39600067928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182734EC1D62A39600067928 /* Build configuration list for PBXNativeTarget "AlaMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182734ED1D62A39600067928 /* Debug */,
+				182734EE1D62A39600067928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182734CD1D62A39500067928 /* Project object */;
+}

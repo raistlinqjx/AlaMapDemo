@@ -1,0 +1,6 @@
+framework module ALDMapKit {
+  umbrella header "ALDMapKit.h"
+
+  export *
+  module * { export * }
+}
