@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 
 - (IBAction)mapBtnPressed:(id)sender;
+- (IBAction)mapNaviBtnPressed:(id)sender;
 @end
 

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AlaMapViewController.h"
+#import "AlaMapNaviViewController.h"
 @interface ViewController ()
 
 @end
@@ -29,4 +30,8 @@
     [self.navigationController pushViewController:controller animated:YES];
 }
 
+- (IBAction)mapNaviBtnPressed:(id)sender{
+    AlaMapNaviViewController *controller = [[AlaMapNaviViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 @end
