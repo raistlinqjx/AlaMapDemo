@@ -11,6 +11,4 @@
 
 @interface AlaMapViewController : UIViewController<ALDMapViewDelegate>
 @property (nonatomic, retain) ALDMapView *myMapView;
-@property (nonatomic, retain) UISearchBar *searchBar;
-@property (nonatomic, retain) UISearchController *searchController;
 @end

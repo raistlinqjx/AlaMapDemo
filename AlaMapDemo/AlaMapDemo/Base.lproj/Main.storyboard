@@ -27,6 +27,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHf-KH-w46">
                                 <rect key="frame" x="60" y="170" width="124" height="30"/>
                                 <state key="normal" title="MAP NAVI"/>
+                                <connections>
+                                    <action selector="mapNaviBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TbW-5C-wlr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -17,6 +17,8 @@
 		182734F21D62A9BC00067928 /* MapApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 182734F11D62A9BC00067928 /* MapApi.bundle */; };
 		182734F51D62AC4B00067928 /* AlaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182734F41D62AC4B00067928 /* AlaMapViewController.m */; };
 		182734F71D62E58200067928 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182734F61D62E58200067928 /* MapKit.framework */; };
+		18A443E61D6C1D4C000602E5 /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A443E51D6C1D4C000602E5 /* SearchResultCell.m */; };
+		18A443E71D6C2461000602E5 /* SearchTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A443E21D6C1D00000602E5 /* SearchTableVC.m */; };
 		18CCE49C1D6AFC5D00186E30 /* AlaMapNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE49B1D6AFC5D00186E30 /* AlaMapNaviViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +38,10 @@
 		182734F31D62AC4B00067928 /* AlaMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlaMapViewController.h; sourceTree = "<group>"; };
 		182734F41D62AC4B00067928 /* AlaMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlaMapViewController.m; sourceTree = "<group>"; };
 		182734F61D62E58200067928 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18A443E11D6C1D00000602E5 /* SearchTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableVC.h; sourceTree = "<group>"; };
+		18A443E21D6C1D00000602E5 /* SearchTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableVC.m; sourceTree = "<group>"; };
+		18A443E41D6C1D4C000602E5 /* SearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		18A443E51D6C1D4C000602E5 /* SearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
 		18CCE49A1D6AFC5D00186E30 /* AlaMapNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlaMapNaviViewController.h; sourceTree = "<group>"; };
 		18CCE49B1D6AFC5D00186E30 /* AlaMapNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlaMapNaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +88,10 @@
 				182734F41D62AC4B00067928 /* AlaMapViewController.m */,
 				18CCE49A1D6AFC5D00186E30 /* AlaMapNaviViewController.h */,
 				18CCE49B1D6AFC5D00186E30 /* AlaMapNaviViewController.m */,
+				18A443E11D6C1D00000602E5 /* SearchTableVC.h */,
+				18A443E21D6C1D00000602E5 /* SearchTableVC.m */,
+				18A443E41D6C1D4C000602E5 /* SearchResultCell.h */,
+				18A443E51D6C1D4C000602E5 /* SearchResultCell.m */,
 				182734E11D62A39600067928 /* Main.storyboard */,
 				182734E41D62A39600067928 /* Assets.xcassets */,
 				182734E61D62A39600067928 /* LaunchScreen.storyboard */,
@@ -176,11 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A443E71D6C2461000602E5 /* SearchTableVC.m in Sources */,
 				18CCE49C1D6AFC5D00186E30 /* AlaMapNaviViewController.m in Sources */,
 				182734F51D62AC4B00067928 /* AlaMapViewController.m in Sources */,
 				182734E01D62A39500067928 /* ViewController.m in Sources */,
 				182734DD1D62A39500067928 /* AppDelegate.m in Sources */,
 				182734DA1D62A39500067928 /* main.m in Sources */,
+				18A443E61D6C1D4C000602E5 /* SearchResultCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
